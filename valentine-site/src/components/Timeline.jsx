@@ -47,7 +47,7 @@ export default function OurJourney() {
           </h3>
 
           <p className="text-rose-500 font-medium tracking-wide mb-4">
-            25th May 2025 ❤️
+            30th June 2025 ❤️
           </p>
 
           <p className="text-gray-600 leading-relaxed">

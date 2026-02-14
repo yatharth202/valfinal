@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function LoveCounter() {
 
-  const togetherDate = new Date("2025-06-10T00:00:00");
+const togetherDate = new Date("2025-07-03T00:00:00");
+
 
   const [time, setTime] = useState({
     days: 0,
@@ -32,7 +33,7 @@ export default function LoveCounter() {
       <div className="bg-white/20 backdrop-blur-xl border border-white/30 rounded-3xl px-12 py-10 shadow-2xl text-center max-w-2xl w-full">
 
         <h2 className="text-3xl font-serif text-gray-800 mb-2">
-          Since 10th June 2025 💗
+          Since 3th July 2025 💗
         </h2>
 
 

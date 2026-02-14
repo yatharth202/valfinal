@@ -27,7 +27,6 @@ export default function Accepted() {
         <span className="heart heart5">💞</span>
       </div>
 
-      {/* Glass Card */}
       <div
         className={`relative z-10 max-w-2xl w-full text-center
         bg-white/35 backdrop-blur-xl
