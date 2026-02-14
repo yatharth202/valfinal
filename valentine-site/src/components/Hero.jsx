@@ -85,6 +85,8 @@ export default function Hero() {
           variants={fadeUp}
           className="mt-6 text-sm text-gray-600"
         >
+          My little <span className="text-blue-500">Penguin 🐧</span>,  
+          my soft <span className="text-pink-500">Panda 🐼</span>
         </motion.p>
 
         <motion.p
