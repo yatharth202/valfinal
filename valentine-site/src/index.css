@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500&display=swap');
+
+@import "tailwindcss";
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+
+
+  background: linear-gradient(
+    135deg,
+    #fff1f7,
+    #fbcfe8,
+    #f9a8d4,
+    #fbcfe8,
+    #fff1f7
+  );
+
+  background-size: 300% 300%;
+  animation: romanticFlow 25s ease-in-out infinite;
+}
+
+
+@keyframes romanticFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-100vh) scale(1.2); opacity: 0; }
+}
+
+.animate-float {
+  animation: floatUp 8s linear infinite;
+}
+
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 20px rgba(255, 105, 180, 0.2); }
+  50% { box-shadow: 0 0 50px rgba(255, 105, 180, 0.5); }
+  100% { box-shadow: 0 0 20px rgba(255, 105, 180, 0.2); }
+}
+
+.animate-glow {
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+
+@keyframes floatUp1 {
+  0% { transform: translateY(0) scale(1); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-120vh) scale(1.2); opacity: 0; }
+}
+
+@keyframes floatUp2 {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-130vh) translateX(40px); opacity: 0; }
+}
+
+@keyframes floatUp3 {
+  0% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-125vh) translateX(-40px); opacity: 0; }
+}
+
+@keyframes floatUp4 {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-140vh); opacity: 0; }
+}
+
+@keyframes floatUp5 {
+  0% { transform: translateY(0) scale(0.8); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: translateY(-135vh) scale(1.3); opacity: 0; }
+}
+
+.animate-float1 { animation: floatUp1 10s linear infinite; }
+.animate-float2 { animation: floatUp2 12s linear infinite; }
+.animate-float3 { animation: floatUp3 11s linear infinite; }
+.animate-float4 { animation: floatUp4 13s linear infinite; }
+.animate-float5 { animation: floatUp5 14s linear infinite; }
